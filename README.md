@@ -80,3 +80,17 @@ Se você não possui permissão de administrador, use a versão portátil (arqui
 * Possui projetos?: `n.`
 
 **Saída (Resultado e Explicação):**
+
+--- ANÃLISE CONCLUÃDA ---
+
+[Explicacao da Analise]
+- Setor informado: tecnologia
+- FATO: Limite base para 'tecnologia' e: 10000 tCO2e
+- FATO: Emissoes anuais informadas: 15000 tCO2e
+- REGRA (BalanÃ§o = EmissÃµes - Limite): 15000 - 10000 = 5000 tCO2e
+- REGRA (Status): BalanÃ§o 5000 tCO2e -> Status: deficit
+- FATO: Potencial de reducao interna: 5000 tCO2e
+- REGRA (Viabilidade): Custo interno < Custo mercado? -> sim
+- REGRA (RecomendaÃ§Ã£o): Status 'deficit' + Viabilidade 'sim' -> AÃ§Ã£o: investir_reducao
+
+RESULTADO: resultado(status(deficit),balanco(5000),acao_sugerida(investir_reducao))
