@@ -91,6 +91,6 @@ Se você não possui permissão de administrador, use a versão portátil (arqui
 - REGRA (Status): Balanço 5000 tCO2e -> Status: deficit
 - FATO: Potencial de reducao interna: 5000 tCO2e
 - REGRA (Viabilidade): Custo interno < Custo mercado? -> sim
-- REGRA (Recomendação): Status 'deficit' + Viabilidade 'sim' -> AÃ§Ã£o: investir_reducao
+- REGRA (Recomendação): Status 'deficit' + Viabilidade 'sim' -> Ação: investir_reducao
 
 RESULTADO: resultado(status(deficit),balanco(5000),acao_sugerida(investir_reducao))
